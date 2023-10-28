@@ -12530,12 +12530,16 @@ html:not(.lt-ie10) .not-animated {
 	background-color: #6689ff;
 	animation: loaderBlock 1.2s infinite ease-in-out both;
 }
+@font-face {
+	font-family: "Agbalumo";
+	src: url(agb.ttf);
+}
 
 .cssload-container span:nth-child(1) {
 	top: 0;
 	left: 0;
 }
-
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Mooli&display=swap");
 .cssload-container span:nth-child(2) {
 	top: 0;
 	right: 0;
@@ -12677,7 +12681,41 @@ html.tablet .ui-to-top {
 .rd-navbar--no-transition, .rd-navbar--no-transition * {
 	transition: none !important;
 }
+@media (max-width: 992px) {
+	.navbar-nav {
+	  animation: slideIn 0.5s forwards;
+	}
+	
+	@keyframes slideIn {
+	  from {
+		transform: translateX(100%); /* Cambiamos -100% a 100% */
+	  }
+	  to {
+		transform: translateX(0);
+	  }
+	}
+  }
+.nav-link {
+text-decoration: none; /* Quita la subrayado predeterminado */
+position: relative;
+}
 
+.nav-link::before {
+content: ""; /* Agrega contenido antes del enlace */
+position: absolute;
+width: 100%;
+height: 2px; /* Altura de la línea */
+bottom: 0;
+left: 0;
+background-color: #007bff; /* Color de la línea */
+transform: scaleX(0); /* Inicialmente, la línea no se ve */
+transform-origin: bottom left;
+transition: transform 0.3s ease;
+}
+
+.nav-link:hover::before {
+transform: scaleX(1); /* La línea se expande al 100% en el hover */
+}
 .rd-navbar,
 .rd-navbar.rd-navbar--is-clone {
 	display: none;

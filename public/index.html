@@ -9,7 +9,7 @@
       href="https://fonts.cdnfonts.com/css/bukhari-script"
       rel="stylesheet"
     />
-    <link href="https://fonts.cdnfonts.com/css/open-sans" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/Agbalumo" rel="stylesheet">
 
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
@@ -25,40 +25,66 @@
 
     <link rel="stylesheet" href="css/fonts.css"/>
     <link rel="stylesheet" href="css/style1.css"/>
+    <style>
+
+    </style>
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-</head>
-<body>
+
+  </head>
+<body style="font-family: Agbalumo;">
   <div id="home">
-    <header class="section page-header" >
-          <!-- RD Navbar-->
-          <div class="rd-navbar-wrap">
-            <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
-              <div class="rd-navbar-main-outer">
-                <div class="rd-navbar-main">
-                  <div class="rd-navbar-panel">
-                    <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                    <div class="rd-navbar-brand"><a class="brand" href="home"><img src="images/logo1.png" alt="" style="height: 5vh; width: 5vh; border-radius: 30px;"/></a></div>
-                  </div>
-                  <div class="rd-navbar-main-element">
-                    <div class="rd-navbar-nav-wrap">
-                          <ul class="list-inline rd-navbar-share-list-item" style="	    display: flex;
-                            flex-wrap: nowrap;
-                            justify-content: center;
-                            align-items: center;
-                            margin-left: -9px;
-                            margin-right: -9px;visibility:visible; opacity:1;"><a class="icon fa fa-twitter" href="apply"></a>
-                        </ul>
-                      <ul class="rd-navbar-nav">
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">about us</a></li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="https://travelers.gitbook.io/travelers/">whitepaper</a></li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="team.html">team</a></li>
-                      </ul>
-                  </div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="padding-top: 20px;">
+    <!-- Logo -->
+    <div class="col-4 text-center">
+      <img src="images/logo.png" alt="" width="50px" height="50px">
+  </div>
+  
+    <!-- Botón de hamburguesa para dispositivos móviles -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- Contenido central -->
+    <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">about us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">whitepaper</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">team</a>
+            </li>
+              <li class="navbar-text d-lg-none text-center"> 
+                <hr>
+                <div class="navbar-text col-4">
+                <svg width="1.5em" height="auto" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18.9816 1.30708C17.602 0.702087 16.1227 0.256358 14.5759 0.0010709C14.5477 -0.00385607 14.5196 0.00845669 14.505 0.0330828C14.3148 0.3565 14.104 0.778425 13.9564 1.11006C12.2928 0.872011 10.6376 0.872011 9.00806 1.11006C8.86045 0.771053 8.64205 0.3565 8.45093 0.0330828C8.43642 0.00927834 8.40828 -0.00303442 8.38011 0.0010709C6.83417 0.255543 5.35478 0.701272 3.97434 1.30708C3.96239 1.312 3.95215 1.32022 3.94535 1.33088C1.13926 5.33755 0.37055 9.24573 0.747651 13.1055C0.749358 13.1243 0.760449 13.1424 0.775806 13.1539C2.62719 14.4533 4.42057 15.2422 6.18064 15.7651C6.20881 15.7733 6.23866 15.7634 6.25658 15.7413C6.67293 15.1979 7.04406 14.6249 7.36228 14.0224C7.38106 13.9871 7.36313 13.9452 7.32475 13.9313C6.73606 13.7178 6.17552 13.4576 5.63631 13.1621C5.59367 13.1383 5.59025 13.08 5.62949 13.0521C5.74295 12.9708 5.85645 12.8863 5.9648 12.8009C5.9844 12.7853 6.01172 12.782 6.03477 12.7919C9.57711 14.3376 13.4121 14.3376 16.9127 12.7919C16.9357 12.7812 16.963 12.7845 16.9835 12.8001C17.0919 12.8855 17.2053 12.9708 17.3197 13.0521C17.3589 13.08 17.3563 13.1383 17.3137 13.1621C16.7745 13.4633 16.2139 13.7178 15.6244 13.9304C15.586 13.9444 15.5689 13.9871 15.5877 14.0224C15.9128 14.6241 16.2839 15.197 16.6926 15.7404C16.7096 15.7634 16.7403 15.7733 16.7685 15.7651C18.5371 15.2422 20.3305 14.4533 22.1819 13.1539C22.1981 13.1424 22.2083 13.1252 22.21 13.1063C22.6613 8.64401 21.4541 4.76787 19.0098 1.3317C19.0038 1.32022 18.9936 1.312 18.9816 1.30708ZM7.89127 10.7553C6.82478 10.7553 5.94602 9.81952 5.94602 8.67029C5.94602 7.52106 6.80774 6.58529 7.89127 6.58529C8.98331 6.58529 9.85356 7.52928 9.83649 8.67029C9.83649 9.81952 8.97477 10.7553 7.89127 10.7553ZM15.0835 10.7553C14.017 10.7553 13.1383 9.81952 13.1383 8.67029C13.1383 7.52106 14 6.58529 15.0835 6.58529C16.1756 6.58529 17.0458 7.52928 17.0287 8.67029C17.0287 9.81952 16.1756 10.7553 15.0835 10.7553Z" fill="currentColor"></path></svg>
+                  <svg width="1.5em" height="auto" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.1309 4.06134C20.978 3.46988 21.7405 2.76013 22.3335 1.93209C21.5711 2.24754 20.6815 2.48412 19.792 2.56298C20.7239 2.05038 21.4016 1.26177 21.7405 0.276013C20.8933 0.749178 19.9191 1.10405 18.9448 1.3012C18.0977 0.473165 16.954 0 15.6833 0C13.2265 0 11.2357 1.85323 11.2357 4.1402C11.2357 4.45564 11.278 4.77108 11.3627 5.08653C7.67757 4.88938 4.37364 3.2333 2.17101 0.749178C1.78979 1.34064 1.578 2.05038 1.578 2.83899C1.578 4.25849 2.34045 5.52026 3.56883 6.26944C2.84874 6.23001 2.12865 6.07229 1.53564 5.75685V5.79628C1.53564 7.80723 3.06053 9.46331 5.09373 9.85761C4.75486 9.93647 4.33128 10.0153 3.95006 10.0153C3.65355 10.0153 3.3994 9.9759 3.10289 9.93647C3.65355 11.5926 5.30552 12.7755 7.25399 12.8149C5.7291 13.9189 3.82298 14.5893 1.74743 14.5893C1.36621 14.5893 1.02734 14.5498 0.688477 14.5104C2.63695 15.6933 4.96665 16.3636 7.50814 16.3636C15.6833 16.3636 20.1309 10.0942 20.1309 4.61336C20.1309 4.41621 20.1309 4.25849 20.1309 4.06134Z" fill="currentColor"></path></svg>
+         
                 </div>
-              </div>
-            </nav>
-          </div>
-    </header>
+                <hr>
+              </li>
+        </ul>
+    </div>
+    
+   
+    <div class="navbar-text d-none d-lg-block col-4 text-center " >
+      <a class="" href="#">
+      <svg class="" width="1.5em" height="auto" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="nav-link" d="M18.9816 1.30708C17.602 0.702087 16.1227 0.256358 14.5759 0.0010709C14.5477 -0.00385607 14.5196 0.00845669 14.505 0.0330828C14.3148 0.3565 14.104 0.778425 13.9564 1.11006C12.2928 0.872011 10.6376 0.872011 9.00806 1.11006C8.86045 0.771053 8.64205 0.3565 8.45093 0.0330828C8.43642 0.00927834 8.40828 -0.00303442 8.38011 0.0010709C6.83417 0.255543 5.35478 0.701272 3.97434 1.30708C3.96239 1.312 3.95215 1.32022 3.94535 1.33088C1.13926 5.33755 0.37055 9.24573 0.747651 13.1055C0.749358 13.1243 0.760449 13.1424 0.775806 13.1539C2.62719 14.4533 4.42057 15.2422 6.18064 15.7651C6.20881 15.7733 6.23866 15.7634 6.25658 15.7413C6.67293 15.1979 7.04406 14.6249 7.36228 14.0224C7.38106 13.9871 7.36313 13.9452 7.32475 13.9313C6.73606 13.7178 6.17552 13.4576 5.63631 13.1621C5.59367 13.1383 5.59025 13.08 5.62949 13.0521C5.74295 12.9708 5.85645 12.8863 5.9648 12.8009C5.9844 12.7853 6.01172 12.782 6.03477 12.7919C9.57711 14.3376 13.4121 14.3376 16.9127 12.7919C16.9357 12.7812 16.963 12.7845 16.9835 12.8001C17.0919 12.8855 17.2053 12.9708 17.3197 13.0521C17.3589 13.08 17.3563 13.1383 17.3137 13.1621C16.7745 13.4633 16.2139 13.7178 15.6244 13.9304C15.586 13.9444 15.5689 13.9871 15.5877 14.0224C15.9128 14.6241 16.2839 15.197 16.6926 15.7404C16.7096 15.7634 16.7403 15.7733 16.7685 15.7651C18.5371 15.2422 20.3305 14.4533 22.1819 13.1539C22.1981 13.1424 22.2083 13.1252 22.21 13.1063C22.6613 8.64401 21.4541 4.76787 19.0098 1.3317C19.0038 1.32022 18.9936 1.312 18.9816 1.30708ZM7.89127 10.7553C6.82478 10.7553 5.94602 9.81952 5.94602 8.67029C5.94602 7.52106 6.80774 6.58529 7.89127 6.58529C8.98331 6.58529 9.85356 7.52928 9.83649 8.67029C9.83649 9.81952 8.97477 10.7553 7.89127 10.7553ZM15.0835 10.7553C14.017 10.7553 13.1383 9.81952 13.1383 8.67029C13.1383 7.52106 14 6.58529 15.0835 6.58529C16.1756 6.58529 17.0458 7.52928 17.0287 8.67029C17.0287 9.81952 16.1756 10.7553 15.0835 10.7553Z" fill="currentColor"></path></svg>
+      </a>
+      <a class="" href="#">
+        <svg width="1.5em" height="auto" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20.1309 4.06134C20.978 3.46988 21.7405 2.76013 22.3335 1.93209C21.5711 2.24754 20.6815 2.48412 19.792 2.56298C20.7239 2.05038 21.4016 1.26177 21.7405 0.276013C20.8933 0.749178 19.9191 1.10405 18.9448 1.3012C18.0977 0.473165 16.954 0 15.6833 0C13.2265 0 11.2357 1.85323 11.2357 4.1402C11.2357 4.45564 11.278 4.77108 11.3627 5.08653C7.67757 4.88938 4.37364 3.2333 2.17101 0.749178C1.78979 1.34064 1.578 2.05038 1.578 2.83899C1.578 4.25849 2.34045 5.52026 3.56883 6.26944C2.84874 6.23001 2.12865 6.07229 1.53564 5.75685V5.79628C1.53564 7.80723 3.06053 9.46331 5.09373 9.85761C4.75486 9.93647 4.33128 10.0153 3.95006 10.0153C3.65355 10.0153 3.3994 9.9759 3.10289 9.93647C3.65355 11.5926 5.30552 12.7755 7.25399 12.8149C5.7291 13.9189 3.82298 14.5893 1.74743 14.5893C1.36621 14.5893 1.02734 14.5498 0.688477 14.5104C2.63695 15.6933 4.96665 16.3636 7.50814 16.3636C15.6833 16.3636 20.1309 10.0942 20.1309 4.61336C20.1309 4.41621 20.1309 4.25849 20.1309 4.06134Z" fill="currentColor"></path></svg>
+      </a>
+
+      </div>
+      
+  </nav>
+ 
 </div>
   
   
@@ -67,7 +93,7 @@
         <section class="text-center"  id="projects">
     
             <div class="container2" data-aos="fade-right">
-                <h1 class="wow fadeInLeft" style="font-family: 'Bukhari Script', sans-serif; font-size: 90px">travelers</h1>
+                <h1 class="wow fadeInLeft" style="font-family: Agbalumo;font-size: 90px">TRAVELERS</h1>
             </div>
         </section>
        <!-- First Wave-->
@@ -103,7 +129,7 @@
                   <div class="col-1">
                   </div>
                   <div class="col-10">
-                    <h3 class="gallery-title" style="background-color: transparent;font-family: 'Open Sans', sans-serif;">We are not just a project.</h3>
+                    <h3 class="gallery-title" style="background-color: transparent;font-family: 'Agbalumo', sans-serif;">We are not just a project.</h3>
                     <br>
                     <br>
                     <br>                
@@ -187,7 +213,7 @@
           <!--End Separation-->
           <section class="section section-sm section-fluid bg-default" id="team">
             <div class="container-fluid text-center">
-              <h2>Meet the team</h2>
+              <h2 style="font-family: Agbalumo;">Meet the team</h2>
               <div class="row row-sm row-30 justify-content-center">
                 <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight">
     
